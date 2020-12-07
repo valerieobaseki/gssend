@@ -44,6 +44,9 @@ function afterSubmit(e){
         method: 'POST',
         mode:'no-cors',
         cache: 'no-cache',
+         headers:{
+        'Content-Type': 'application/json'
+    },
         redirect: 'follow',
         body: JSON.stringify(info)
       })
