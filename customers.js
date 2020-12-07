@@ -34,7 +34,7 @@ function afterSubmit(e){
         city: city.value,
     };
 
-    var url = "https://script.googleusercontent.com/macros/echo?user_content_key=N4KbqltncBNKp_qPJOeVm-ChWXrsM0PijcMuwrDwFQ2QXkWx-ul7_nfkkLrlC-QsBMETv8RB1CLTAiybO21ZqHElTmVFe2TBm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnA3puq2BYbE7rV7oWIl31Xq-i5AhQYBwWyEbddyrwKPJ0on5HHmRh9toLyd0geonWDHYlvxnKr4OGGaU2pP6Ntk&lib=MBNzBteGq5n9YUmnt-nME9dUj6pQy2WoH";
+    var url = "https://script.google.com/macros/s/AKfycbzCB1mD5Aezw_5w2hOthRydibz68JIgO5oXJuvRX0FrfVGr4AHCDKaw/exec";
 
     buttonText.textContent = "Saving..";
     buttonSpinner.classList.remove("d-none");
